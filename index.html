@@ -5,8 +5,10 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit="no" />
         <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/custom_css.css" rel="stylesheet" />
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 
         <script src="js/bootstrap.min.js"></script>
@@ -28,85 +30,193 @@
     </head>
 
     <body>
-        <div id="nav"></div>
-        <header>
+        <div id="nav">
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#22A39F">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="index.html">About me!<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="research.html">Research & Projects</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="experience.html">Work Experience</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="knowledge.html">Knowledge</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Service</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav></div>
+        <header style="margin-left:10px; margin-right:10px;">
             <div class="bonjour_wrapper">
-                <h1 class="display-3 text-center">Why, Bonjour there!</h1>
+                <div class="welcome">
+                  <br>
+                  <img class="myPicture" src="images/mainPic.png" alt="Matthieu Capuano">
+                  <br>
+                  <h1 class="text-center">Why, Bonjour there!</h1>
+                </div>
+                <br>
                 Explore this website to find out all about me (if you're interested), the work I've done, my research and personal projects, as well as some of the volunteer work I do every holiday!
 
-                If you're here because I redirected you to this page to find my class notes and "Sheets of Knowledge", go straight to the Knowledge Database tab. :)
+                If you're here because I redirected you to this page to find my class notes and "Sheets of Knowledge", go straight to the Knowledge tab. :)
 
-                <blockquote class="blockquote text-center">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockquote>
+                <br>
+                <br>
+                <hr/>
             </div>
 
-            <hr/>
-
             <div class="main_container">
-                <h1 class="display-6 text-center">About me!</h1>
+                <h1 class="text-center">About me!</h1>
+                <br>
                 Though I hope any interest in me stems from my work or the many positive changes I hope to bring about in the world, it has always seemed to be a point of interest for most people to know find
                 out more about the many places I have lived in. So, below is a brief biography detailing the many nations I've been fortunate enough to live in. Why move so much? Mom works for the World Health Organization (WHO), which has an
                 internal policies that its directors can't work in any specific office for more than two years. That said, I suspect mom and dad also just enjoy exploring.
-
-
+                <br>
+                <br>
+                <hr/>
                 <div class="container_custom">
+                  <div class="location-image">
+                    <img src="images/leblanc.jpeg" alt="Le Blanc, France">
+                  </div>
+                  <div class="location-info">
                     <div class="col-md-4">
                         <h4>- France -
                             <p><em>(1995-1996)</em></p>
                         </h4>
                     </div>
-                    <div class="col-md-8">
+                    <div class="location-description">
                         My birth country. I was born in Chateauroux, Centre Val de Loire, France, but lived in a small town called LeBlanc about an hour away. While moving around different countries that town, and the house my parents own in it, were
                         pretty much the only constant I had growing up. We returned there every summer for Holidays and still do so today. I consider it my hometown.
                     </div>
+                  </div>
                 </div>
 
                 <hr/>
 
                 <div class="container_custom">
-                    <h4>- Vanuatu <p><em>(1996-2006)</em></p> -</h4>
-                    <div class="col-md-8">
-                        To this, day Vanuatu is the country I've lived the longest in. We moved there at the end of 1995 and remained there for the next 10 years. Vanuatu is an archipelago in Oceania. I lived in Port-Vila, Vanuatu's capital and biggest city,
-                        on the island of Efate, which is the second biggest island after Espiritu Santo. My time in Vanuatu was actually the only period during which I went through a Francophone educational syste. I went to l'Ecole Colardo, which is a small
-                        school, but I had a few close friends, none of whom I can now find on social media :( I left at the end of sixth grade, this was my first time moving, and the fact that I was moving to an English speaking country was one of the most
-                        stressful things I had experienced until that point.
+                  <div class="location-image">
+                    <img src="images/vanuatu.jpg" alt="Vanuatu">
+                  </div>
+                  <div class="location-info">
+                    <div class="col-md-4">
+                        <h4>- Vanuatu -
+                            <p><em>(1996-2006)</em></p>
+                        </h4>
+                    </div>
+                    <div class="location-description">
+                      To this, day Vanuatu is the country I've lived the longest in. We moved there at the end of 1995 and remained there for the next 10 years. Vanuatu is an archipelago in Oceania. I lived in Port-Vila, Vanuatu's capital and biggest city,
+                      on the island of Efate, which is the second biggest island after Espiritu Santo. My time in Vanuatu was actually the only period during which I went through a Francophone educational syste. I went to l'Ecole Colardo, which is a small
+                      school, but I had a few close friends, none of whom I can now find on social media :( I left at the end of sixth grade, this was my first time moving, and the fact that I was moving to an English speaking country was one of the most
+                      stressful things I had experienced until that point.
+                    </div>
+                  </div>
+                </div>
+
+                <hr/>
+
+                <div class="container_custom">
+                  <div class="location-image">
+                    <img src="images/vanuatu.jpg" alt="New Zealand">
+                  </div>
+                  <div class="location-info">
+                    <div class="col-md-4">
+                        <h4>- New Zealand -
+                            <p><em>(2006-2008)</em></p>
+                        </h4>
+                    </div>
+                    <div class="location-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                    </div>
+                  </div>
+                </div>
+
+                <hr/>
+
+                <div class="container_custom">
+                    <div class="location-image">
+                      <img src="images/suva.jpg" alt="Suva, Fiji">
+                    </div>
+                    <div class="location-info">
+                      <div class="col-md-4">
+                          <h4>- Fiji -
+                              <p><em>(2008-2010)</em></p>
+                          </h4>
+                      </div>
+                      <div class="location-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                      </div>
                     </div>
                 </div>
 
                 <hr/>
 
                 <div class="container_custom">
-                    <h4>- New-Zealand <p><em>(2006-2008)</em></p> -</h4>
+                    <div class="location-image">
+                      <img src="images/malaysia.jpg" alt="Kuala Lumpur, Malaysia">
+                    </div>
+                    <div class="location-info">
+                      <div class="col-md-4">
+                          <h4>- Malaysia -
+                              <p><em>(2010-2012)</em></p>
+                          </h4>
+                      </div>
+                      <div class="location-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                      </div>
+                    </div>
                 </div>
 
                 <hr/>
 
                 <div class="container_custom">
-                    <h4>- Fiji <p><em>(2008-2010)</em></p> -</h4>
+                    <div class="location-image">
+                      <img src="images/manila.jpeg" alt="Manila, Philippines">
+                    </div>
+                    <div class="location-info">
+                      <div class="col-md-4">
+                          <h4>- Philippines -
+                              <p><em>(2012-2014)</em></p>
+                          </h4>
+                      </div>
+                      <div class="location-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                      </div>
+                    </div>
                 </div>
 
                 <hr/>
 
                 <div class="container_custom">
-                    <h4>- Malaysia <p><em>(2010-2012)</em></p> -</h4>
-                </div>
-
-                <hr/>
-
-                <div class="container_custom">
-                    <h4>- Philippines <p><em>(2012-2014)</em></p> -</h4>
-                </div>
-
-                <hr/>
-
-                <div class="container_custom">
-                    <h4>- United States <p><em>(2014-current)</em></p>-</h4>
+                    <div class="location-image">
+                      <img src="images/gt.png" alt="Georgia Tech">
+                    </div>
+                    <div class="location-info">
+                      <div class="col-md-4">
+                          <h4>- United States -
+                              <p><em>(2014-current)</em></p>
+                          </h4>
+                      </div>
+                      <div class="location-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                      </div>
+                    </div>
                 </div>
             </div>
         </header>
+        <div class="footer">
+            <p>Matthieu Jean-Baptiste Capuano</p>
+            <p>capuanomat@gmail.com</p>
+            <a href="https://www.linkedin.com/in/matthieu-capuano-2906a5106/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/capuanomat" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
     </body>
-
-    <div id="footer"></div>
 </html>

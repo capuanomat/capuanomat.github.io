@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matthieu J. Capuano</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit="no" />
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/custom_css.css" rel="stylesheet" />
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    </head>
+
+    <body>
+      <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#22A39F">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About me!<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">Research & Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="knowledge.html">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Service</a>
+                    </li>
+                </ul>
+            </div>
+        </nav></div>
+        <div class="stuff">
+            <div class="bonjour_wrapper">
+              <br>
+                <h1 class="text-center">Knowledge Database</h1>
+                Here is some of the knowledge I've accumulated over time.
+                <hr/>
+            </div>
+
+              <div class="main_container">
+                <button class="collapsible"><i class="fa fa-plus-circle"></i>Knowledge Database</button>
+                <div class="content">
+                  <iframe src="https://drive.google.com/embeddedfolderview?id=18Je6FFKfol31KXweu2kaXEgGF3CpEhKr#list" style="width:100%; height:300px; border:0;"></iframe>
+                </div>
+                <button class="collapsible"><i class="fa fa-plus-circle"></i>Sheets of Knowledge</button>
+                <div class="content nested">
+                  <button class="collapsible"><i class="fa fa-plus-circle"></i>AE Sheets</button>
+                  <div class="content">
+                    <iframe src="https://drive.google.com/embeddedfolderview?id=1pgv2mjh4TrPuyuKLWxpqzPcxY4TseyQk#list" style="width:100%; height:300px; border:0;"></iframe>
+                  </div>
+                  <button class="collapsible"><i class="fa fa-plus-circle"></i>CS Sheets</button>
+                  <div class="content">
+                    <iframe src="https://drive.google.com/embeddedfolderview?id=17Egjz4Ay_mYuaNCROSNWayNMbNxdXoBs#list" style="width:100%; height:300px; border:0;"></iframe>
+                  </div>
+                </div>
+              </div>
+              <br/>
+            </div>
+              <script>
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.maxHeight){
+                    content.style.maxHeight = null;
+                    this.getElementsByClassName("fa")[0].className="fa fa-plus-circle";
+                  } else {
+                    content.style.maxHeight = 800+"px";//content.scrollHeight + "px";
+                    this.getElementsByClassName("fa")[0].className="fa fa-minus-circle";
+                  }
+                });
+              }
+              </script>
+              <div class="footer">
+                  <p>Matthieu Jean-Baptiste Capuano</p>
+                  <p>capuanomat@gmail.com</p>
+                  <a href="https://www.linkedin.com/in/matthieu-capuano-2906a5106/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/capuanomat" target="_blank"><i class="fa fa-github"></i></a>
+              </div>
+    </body>
+
+    <div id="footer"></div>
+</html>
