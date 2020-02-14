@@ -7,10 +7,146 @@
 
 .background-white { background: #FFFFFF; }
 .background-gray { background: #434242; }
-.main_container{ padding: 25px, 50px }
-.container_custom    { max-width: 1280px; padding: 20px 20px; }
+.main_container{
+  padding-left: 4%;
+  padding-right: 4%;
+  font-family: 'Roboto', sans-serif;
+}
+.stuff {
+  min-height: 85vh;
+}
+.bonjour_wrapper {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.container_custom    {
+  max-width: 1280px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.location-info {
+  padding-left: 15px;
+}
+.location-image img {
+  width: 300px;
+}
+.location-description {
+  flex: 0 0 66.666667%;
+  max-width: 80%;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.myPicture{
+  border-radius: 50%;
+  height: 200px;
+}
+.researchDiv {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.researchDiv b a {
+  color: black;
+  text-decoration: underline;
+}
+.researchDiv b {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.researchDiv ul {
+  max-width: 85%;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+div {
 
+}
+.collapsible {
+  background-color: #197976;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+.collapsible i {
+  margin-right: 20px;
+}
 
-#countries {
-    width
+.collapsible:hover {
+  background-color: #197976;
+  opacity: 0.8;
+}
+.collapsible .active {
+  background-color: #197976;
+  opacity: 0.8;
+}
+button:focus {
+  outline:0;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+.nested {
+  padding-left: 18px;
+}
+nav {
+  height: 8vh;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sideways {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#22A39F;
+  height: 7vh;
+}
+.footer p, .footer a, .footer i{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgba(0,0,0,.5);
+}
+.footer i {
+  padding-top: 2px;
+  font-size: 20px;
+}
+.researchDiv b p{
+  margin: 0;
 }

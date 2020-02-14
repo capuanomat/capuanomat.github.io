@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matthieu J. Capuano</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit="no" />
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/custom_css.css" rel="stylesheet" />
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script>
+            $(function(){
+                $("#nav").load("nav.html");
+                $("#footer").load("footer.html");
+            });
+        </script>
+    </head>
+
+    <body>
+      <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#22A39F">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About me!<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="research.html">Research & Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="knowledge.html">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Service</a>
+                    </li>
+                </ul>
+            </div>
+        </nav></div>
+        <header>
+            <div class="bonjour_wrapper">
+              <br>
+                <h1 class="text-center">Research and Projects</h1>
+                <br>
+                Here is some info about me and my research interests. I'm mainly interested in cool shit like robots and optimal control.
+                <br>
+                <br>
+                <hr/>
+            </div>
+
+
+            <div class="main_container">
+              <h2>Research</h2>
+                <div class="researchDiv">
+                  <b><a href="http://pwp.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems Lab</a><p>January 2018 - December 2019</p></b>
+                  Advisor: Professor Evangelos Theodorou
+                  <br>
+                  Fall 2019:
+                  <ul>
+                    <li>Testing & Evaluating various CFD Solvers with ML Frameworks to perform optimization and control of geometries within fluid flows.</li>
+                  </ul>
+                  Fall 2018 - Spring 2019:
+                  <ul>
+                    <li>Tested double-PID controllers in Jupyter notebook with frozen neural network models of system dynamics.</li>
+                    <li>Implemented the controllers as path trackers within model predictive control and reinforcement learning algorithms for autonomous racecar.</li>
+                    <ul>
+                      <li>Algorithm: Model Predictive Path Integral (MPPI) Control</li>
+                    </ul>
+                    <li>Tested new algorithm in Gazebo Simulations using GPU (CUDA) acceleration. </li>
+                  </ul>
+                  Spring 2018:
+                  <ul>
+                    <li>Worked on updating and management of AutoRally platform.</li>
+                  </ul>
+
+                </div>
+                <br>
+                <div class="researchDiv">
+                  <b><a href="http://www.dcl.gatech.edu/members/eric-feron/" target="_blank">Decisions and Control Lab</a> <p> November 2016 - December 2017</p></b>
+                  Advisor: Professor Eric Feron
+                  <br>
+                  Summer 2017 - Fall 2017
+                  <ul>
+                    <li>Designed and built 3 degree-of-freedom bi-copter model for Aerospace Engineering school to teach controls theory, ~$50.device</li>
+                    <ul>
+                      <li>Arduino based system using PID, LQR, Q-Learning; 500+ lines of C/C++ with MATLAB interactions</li>
+                      <li>Now used in classes by 100+ students, currently testing reinforcement learning stabilization methods.</li>
+                    </ul>
+                  </ul>
+                </div>
+                <hr/>
+                <h2>Projects</h2>
+                <div class="researchDiv">
+                  <b><a href="http://rocket.gtorg.gatech.edu/" target="_blank">Georgia Tech Ramblin' Rocket Club</a><p>October 2014 - May 2019</p></b>
+                  <ul>
+                    <li>Directed organization of 60+ grad/undergrad students focused on rocketry/high altitude ballooning research</li>
+                    <li>Formed Georgia Tech's first Spaceport America Cup team, raised $20,000+ from diverse sponsors, won 1st place.</li>
+                    <li>Formed High Altitude Balloon Team, partnered with research lab to test CubeSat avionics, launched at 100kft.</li>
+                    <li>Increased budget 11-fold, won Burdell's Best Award for Most Imrpoved Organization among 300+ Georgia Tech orgs.</li>
+                  </ul>
+
+                </div>
+            </div>
+        </header>
+        <div class="footer">
+            <p>Matthieu Jean-Baptiste Capuano</p>
+            <p>capuanomat@gmail.com</p>
+            <a href="https://www.linkedin.com/in/matthieu-capuano-2906a5106/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/capuanomat" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+    </body>
+
+    <div id="footer"></div>
+</html>
